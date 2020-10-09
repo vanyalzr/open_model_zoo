@@ -21,7 +21,7 @@ keras-preprocessing==1.1.2  # via tensorflow
 markdown==3.2.2           # via tensorboard
 mxnet==1.5.1              # via -r ${INTEL_OPENVINO_DIR}/deployment_tools/model_optimizer/requirements.txt
 networkx==2.4             # via -r ${INTEL_OPENVINO_DIR}/deployment_tools/model_optimizer/requirements.txt
-numpy==1.18.5             # via -r ${INTEL_OPENVINO_DIR}/deployment_tools/model_optimizer/requirements.txt, h5py, keras-preprocessing, mxnet, onnx, opt-einsum, scipy, tensorboard, tensorflow, torch, torchvision
+numpy==1.19.2             # via -r ${INTEL_OPENVINO_DIR}/deployment_tools/model_optimizer/requirements.txt, h5py, keras-preprocessing, mxnet, onnx, opt-einsum, scipy, tensorboard, tensorflow, torch, torchvision
 oauthlib==3.1.0           # via requests-oauthlib
 onnx==1.7.0               # via -r ${INTEL_OPENVINO_DIR}/deployment_tools/model_optimizer/requirements.txt, -r tools/downloader/requirements-caffe2.in, -r tools/downloader/requirements-pytorch.in
 opt-einsum==3.2.1         # via tensorflow

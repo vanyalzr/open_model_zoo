@@ -9,7 +9,7 @@ kiwisolver==1.1.0         # via matplotlib
 matplotlib==3.0.3         # via scikit-image
 networkx==2.4             # via scikit-image
 nibabel==3.0.2            # via -r tools/accuracy_checker/requirements.in
-numpy==1.17.5             # via -r tools/accuracy_checker/requirements-core.in, imageio, matplotlib, nibabel, pywavelets, scikit-learn, scipy
+numpy==1.19.2             # via -r tools/accuracy_checker/requirements-core.in, imageio, matplotlib, nibabel, pywavelets, scikit-learn, scipy
 pillow==7.2.0             # via -r tools/accuracy_checker/requirements.in, imageio, scikit-image
 py-cpuinfo==4.0.0         # via -r tools/accuracy_checker/requirements.in
 pydicom==2.0.0            # via -r tools/accuracy_checker/requirements.in
