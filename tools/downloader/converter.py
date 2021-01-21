@@ -160,6 +160,8 @@ def main():
             string.Template(arg).substitute(template_variables)
             for arg in model.mo_args]
 
+        expanded_mo_args = expanded_mo_args[1:]
+
         for model_precision in sorted(model_precisions):
             mo_cmd = [str(args.python), '--', str(mo_path),
                 '--framework={}'.format(model_format),
